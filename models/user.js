@@ -1,4 +1,4 @@
-import { Schema } from "mongoose";
+import { Schema, model } from "mongoose";
 import { toJSON } from "@reis/mongoose-to-json";
 
 const userSchema = new Schema({
